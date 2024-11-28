@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Введите ключ</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Введите ключ</h1>
+    <p>Введите слово <strong>"календарь"</strong>, чтобы получить ссылку:</p>
+    <input type="text" id="key" placeholder="Введите слово" autofocus>
+    <button onclick="checkKey()">Проверить</button>
+    <p id="error-message" class="error-message"></p>
+    <div id="link-container" class="link-container"></div> <!-- Здесь будет отображаться ссылка -->
+  </div>
+  <noscript>
+    <p>Для корректной работы включите JavaScript в вашем браузере.</p>
+  </noscript>
+</body>
+</html>
